@@ -36,14 +36,6 @@ body{
 }
 form{
     font-size: 30px;
-}
-label {
     color: cyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-a{
-    color: cyan;
-}
-.ggg {
-    color:aqua;
-    font-family: 'EB Garamond', serif;
-    font-size:1.8em;
