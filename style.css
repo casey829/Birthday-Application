@@ -13,3 +13,11 @@ body{
     font-style: italic;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.p2{
+    color: cyan;
+    font-size: 26px;
+}
+.p3{
+    color: cyan;
+    font-size: 30px;
+}
