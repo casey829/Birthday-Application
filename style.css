@@ -5,6 +5,13 @@ body{
     color: cyan;
     font-size: 65px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 420px;
+    bottom: 50px;
+}
+.head1{
+    color: rgb(94, 161, 161);
+    font-size: 35px;
 }
 .p1{
     color:rgb(74, 165, 165);

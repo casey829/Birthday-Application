@@ -9,7 +9,9 @@ It's a web application that take's a user's birthday and calculates the day of t
 Technologies Used
 
 HTML-For building the user interface
-css-For styling interface
+
+CSS-For styling interface
+
 JavaScript-For document object manupulation
 
 Support and contact details
