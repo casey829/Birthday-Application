@@ -25,23 +25,31 @@
         <p class="p3">Too good to be true??Try me</p>
 
         <!--form1-->
-        <form action="/action_page.php">
-            <label for="fname">YourBirthday:</label><br>
-        </form>
+        <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="bname">Birth Day</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="bday" name="birthday" placeholder="Your birthday..">
+                  </div>
         <br>
         <br>
         <!--form2-->
-        <form>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label>
-            <br>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+        <div class="row">
+            <div class="col-25">
+              <label for="gender">Gender</label>
+            </div>
+            <div class="col-75">
+              <select id="gender" name="gender">
+                <option value="australia">Male</option>
+                <option value="canada">Female</option>
+                <option value="usa">Other</option>
+              </select>
+            </div>
+          </div>
+        
 
     </section>
 </body>

@@ -18,6 +18,10 @@ body{
     font-size: 26px;
 }
 .p3{
-    color: cyan;
+    color:rgb(74, 165, 165);
     font-size: 30px;
+    font-style: italic;
+}
+.container {
+    color: cyan;
 }
