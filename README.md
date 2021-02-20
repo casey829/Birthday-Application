@@ -8,13 +8,15 @@ It's a web application that take's a user's birthday and calculates the day of t
 
 Technologies Used
 
-HTML
-css
-JavaScript
+HTML-For building the user interface
+css-For styling interface
+JavaScript-For document object manupulation
 
 Support and contact details
 
-you are free to contribute. For any enquaries you can contact me through caseymwangi31@gmail.com looking forward to your feed back
+you are free to contribute.
+For any enquaries you can contact me through caseymwangi31@gmail.com 
+looking forward to your feed back
 
 Credits
 Casey Mwangi..
