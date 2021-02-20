@@ -24,4 +24,6 @@ body{
 }
 .container {
     color: cyan;
+    position: absolute;
+    left: 380px;
 }
