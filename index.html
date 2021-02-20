@@ -15,7 +15,7 @@
         <!--heading-->
         <h1 class="head">Akan names</h1>
         <!--image-->
-        <img src="./images/ghana.jpeg" alt="image" height="80px" width="56px" class="center">
+        <img src="./images/ghana.jpeg" alt="image" height="170px" width="150px" class="center">
 
         <h2 class="head1">On what day of the week were you born??</h1>
             <!--paragraph-->
@@ -25,7 +25,8 @@
             <p class="p2">Impressive right!!Know here comes the best part, i will give you an Akan name from the Ghanian
                 culture
                 according to your gender and the day you were born.</p>
-            <p class="p3">The Akan are a meta-ethnicity predominantly speaking Central Tano languages and residing in the southern
+            <p class="p3">The Akan are a meta-ethnicity predominantly speaking Central Tano languages and residing in
+                the southern
                 regions of the former Gold Coast region in what is today the nation of Ghana. Akans who historically
                 migrated from Ghana also make up a plurality of the populace in the Ivory Coast. The Akan language (also
                 known as Twi/Fante) is a group of dialects within the Central Tano branch of the Potou–Tano subfamily of
@@ -33,41 +34,35 @@
             <p class="p3">Too good to be true??Try me</p>
 
             <!--form1-->
-            <div class="container">
-                <form action="action_page.php">
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="bname">Birth Day</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="bday" name="birthday" placeholder="Your birthday..">
-                        </div>
-                        <br>
-                        <br>
-                        <!--form2-->
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="gender">Gender</label>
-                            </div>
-                            <div class="col-75">
-                                <select id="gender" name="gender">
-                                    <option value="male">Male</option>
-                                    <option value="male">Female</option>
-                                    <option value="male">Other</option>
-                                </select>
-                            </div>
-                        </div>
-                        <br>
-                        <br>
-                        <!--form3-->
-                        <div class="row">
-                            <input type="submit" value="Submit">
-                        </div>
 
-    </section>
-    <script src="./script.js">
+            <form>
+                <div>
+                    <div>
+                        <p id="output"></p>
+                        <label>Enter Your first Name.</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter" required>
+                        <label>Year</label>
+                        <input type="number" class="form-control" id="year" placeholder="Enter the year." required
+                            min="1980" max="2019">
+                        <label>Month</label>
+                        <input type="number" class="form-control" id="month" placeholder="Enter the month" required
+                            min="1" max="12">
 
-    </script>
+                        <label>Day</label>
+                        <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
+                            max="31">
+                    </div>
+                    <div class="ggg">
+                        <label>Gender</label><br>
+                        <input type="radio" name="gender" id="male" value="male" checked> Male</input>
+                        <input type="radio" name="gender" id="female" value="female"> Female
+                    </div>
+                </div>
+
+                <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+
+            </form>
+            <script src="./script.js"></script>
 </body>
 
 </html>

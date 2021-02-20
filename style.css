@@ -10,6 +10,9 @@ body{
 }
 .center{
     float:center;
+    position: relative;
+    left:44%;
+    bottom: 6em;
 }
 .head1{
     color: deepskyblue;
@@ -31,8 +34,16 @@ body{
     font-size: 30px;
     font-style: italic;
 }
-.container {
-    color: cyan;
-    position: absolute;
-    left: 380px;
+form{
+    font-size: 30px;
 }
+label {
+    color: cyan;
+}
+a{
+    color: cyan;
+}
+.ggg {
+    color:aqua;
+    font-family: 'EB Garamond', serif;
+    font-size:1.8em;
