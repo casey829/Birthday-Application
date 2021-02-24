@@ -2,7 +2,7 @@ Birthday Application, 2021
 
 By casey mwangi
 
-###Description
+##Description
 
 It's a web application that take's a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Ghanian(Akan) name.
 
