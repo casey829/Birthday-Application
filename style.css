@@ -39,3 +39,7 @@ form{
     color: cyan;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.button{
+    position: relative;
+    top:20%;
+}
